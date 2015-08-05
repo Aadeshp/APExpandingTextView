@@ -1,0 +1,6 @@
+framework module Pods_APExpandingTextView_Example {
+  umbrella header "Pods-APExpandingTextView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+PODS:
+  - APExpandingTextView (0.1.0)
+
+DEPENDENCIES:
+  - APExpandingTextView (from `../`)
+
+EXTERNAL SOURCES:
+  APExpandingTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  APExpandingTextView: fcab009c414380a018d108a12b3015f2d7a6c051
+
+COCOAPODS: 0.37.2

@@ -9,6 +9,43 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+##### Swift
+
+```swift
+var textView: APExpandingTextView = APExpandingTextView(frame: ...)
+textView._delegate = self
+self.view.addSubview(textView)
+
+...
+
+// APExpandingTextViewDelegate
+func textViewWillExpand(textView: APExpandingTextView!) {
+    ...
+}
+
+func textViewDidExpand(textView: APExpandingTextView!) {
+    ...
+}
+```
+
+##### Objective-C
+```objc
+APExpandingTextView *textView = [[APExpandingTextView alloc] initWithFrame: ...];
+textView._delegate = self
+[self.view addSubView:textView];
+
+...
+
+// APExpandingTextViewDelegate
+- (void)textViewWillExpand(textView: APExpandingTextView) {
+    ...
+}
+
+- (void)textViewDidExpand(textView: APExpandingTextView) {
+    ...
+}
+```
+
 ## Requirements
 
 ## Installation
@@ -22,7 +59,7 @@ pod "APExpandingTextView"
 
 ## Author
 
-aadesh, aadeshp95@gmail.com
+Aadesh Patel, aadeshp95@gmail.com
 
 ## License
 
