@@ -14,7 +14,7 @@ class ViewController: UIViewController, APExpandingTextViewDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var textView: APExpandingTextView = APExpandingTextView(frame: CGRectMake(self.view.frame.size.width / 2 - 100, 50 200, 33), textContainer: nil)
+        var textView: APExpandingTextView = APExpandingTextView(frame: CGRectMake(self.view.frame.size.width / 2 - 100, 50, 200, 33))
         textView.layer.borderColor = UIColor.blackColor().CGColor
         textView.layer.borderWidth = 1.0
         textView.layer.cornerRadius = 5.0

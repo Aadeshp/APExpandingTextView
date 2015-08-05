@@ -48,12 +48,15 @@ public class APExpandingTextView: UITextView, UITextViewDelegate {
     
     // MARK: View Life Cycle
     
-    public override init(frame: CGRect, textContainer: NSTextContainer?) {
-        self.width = frame.size.width
-        self.height = frame.size.height
-        self.maxNumberOfLines = 0
-        
+    public init(frame: CGRect) {
         super.init(frame: frame, textContainer: nil)
+        
+        self.baseInit()
+    }
+    
+    public override init(frame: CGRect, textContainer: NSTextContainer?) {
+        super.init(frame: frame, textContainer: textContainer)
+        
         self.baseInit()
     }
     
@@ -66,6 +69,10 @@ public class APExpandingTextView: UITextView, UITextViewDelegate {
     }
     
     private func baseInit() {
+        self.width = frame.size.width
+        self.height = frame.size.height
+        self.maxNumberOfLines = 0
+        
         self.addTextViewObservers()
         
         self.delegate = self
