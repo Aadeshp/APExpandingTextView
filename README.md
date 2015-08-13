@@ -5,8 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/APExpandingTextView.svg?style=flat)](http://cocoapods.org/pods/APExpandingTextView)
 [![Platform](https://img.shields.io/cocoapods/p/APExpandingTextView.svg?style=flat)](http://cocoapods.org/pods/APExpandingTextView)
 
-![Sample](http://im.ezgif.com/tmp/ezgif-611583651.gif)
-
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
